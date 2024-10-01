@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0; /* Adjust as needed */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .login-section, 
+  .help-section, 
+  .department-section,
+  .info-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #d9151d; /* Red color */
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #d9151d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Adjust other styles as needed */
