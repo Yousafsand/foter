@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>footer</title>
+  <link rel="stylesheet" type="text/css" href="footer.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f0f0f0; /* Adjust as needed */
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; /* Allow wrapping for responsiveness */
+      padding: 20px; /* Added padding */
+      width: 100%; /* Full width */
+      box-sizing: border-box; /* Include padding in width */
+      flex-direction:row;
+    }
+
+    .login-section{
+        background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      width: 350px; /* Set a max width for responsiveness */
+      margin: 0px; /* Margin for spacing */
+      flex:1 1 300px; /* Allow items to grow and shrink */
+      /* max-width: 100%; Prevent overflow */
+    }
+    
+    .help-section{
+        background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      width: 350px; /* Set a max width for responsiveness */
+      margin: 0px; /* Margin for spacing */
+      flex:1 1 300px; /* Allow items to grow and shrink */
+      /* max-width: 100%; Prevent overflow */
+    }
+    
+    .department-section{
+        background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      width: 350px; /* Set a max width for responsiveness */
+      margin: 0px; /* Margin for spacing */
+      flex:1 1 300px; /* Allow items to grow and shrink */
+      /* max-width: 100%; Prevent overflow */
+    }
+    
+    .info-section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      width: 350px; /* Set a max width for responsiveness */
+      margin: 0px; /* Margin for spacing */
+      flex:1 1 300px; /* Allow items to grow and shrink */
+      /* max-width: 100%; Prevent overflow */
+    }
+
+    h2 {
+      color: #d9151d; /* Red color */
+    }
+
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #d9151d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%; /* Full width for buttons */
+      transition: background-color 0.3s; /* Hover effect */
+    }
+
+    button:hover {
+      background-color: #b0121a; /* Darker shade on hover */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+    @media (max-width: 800px) {
+  .flex-container {
+    flex-direction: row-reverse;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-section">
+      <h2>MEMBER LOGIN</h2>
+      <form>
+        <input type="email" placeholder="Your Email" required>
+        <input type="password" placeholder="Your Password" required>
+        <button type="submit">LOGIN</button>
+      </form>
+      <p>Can't access your account?</p>
+    </div>
+
+    <div class="help-section">
+      <h2>HELP & SUPPORT</h2>
+      <ul>
+        <li>Customer Relations</li>
+        <li>Feedback</li>
+        <li>Careers</li>
+        <li>Loyalty Club</li>
+        <li>Awards & Events</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+
+    <div class="department-section">
+      <h2>4S DEPARTMENT</h2>
+      <ul>
+        <li>Finance</li>
+        <li>Services</li>
+        <li>Car Comparison</li>
+        <li>Warranty</li>
+        <li>Dealers</li>
+      </ul>
+    </div>
+
+    <div class="info-section">
+      <h2>TOYOTA CENTRAL MOTORS</h2>
+      <p>An Authorized 4S Dealership with workshop which includes Sales, Service, Genuine Toyota Spare parts, & T'Sure (Certified Used Vehicles with warranty and First Free Service) under one roof with latest technology and qualified technicians.</p>
+      <p>WHATSAPP NUMBER: 0346-8218381</p>
+      <p>CUSTOMER SUPPORT: 0348-1119711</p>
+      <button>DON'T HAVE AN ACCOUNT? SIGN UP</button>
+    </div>
+  </div>
+</body>
+</html>
